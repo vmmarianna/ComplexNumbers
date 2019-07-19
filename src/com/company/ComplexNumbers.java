@@ -14,12 +14,6 @@ public class ComplexNumbers {
         this.im = im;
     }
 
-   /* public ComplexNumbers(ComplexNumbers x, ComplexNumbers y) {
-        this.re = re;
-        this.im = im;
-    }
-*/
-
     public double getRe() {
         return re;
     }

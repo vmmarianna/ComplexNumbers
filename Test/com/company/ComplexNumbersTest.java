@@ -29,17 +29,17 @@ public class ComplexNumbersTest {
     @Test
     public void sum() {
         ComplexNumbers sum = x.sum(y);
-        assertEquals(1.1, sum.getRe(), 0.000001);
+        assertEquals(1, sum.getRe(), 0.000001);
         assertEquals(5, sum.getIm(), 0.000001);
     }
 
     /*
         @Test
-        public void comparison() {
-            assertTrue(x.comparison(x));
-            assertEquals(true, ComplexNumbers.comparison(x, x));
-            assertEquals(false, ComplexNumbers.comparison(x, y));
-            assertNotEquals(true, ComplexNumbers.comparison(x, y));
+        public void comparison(int i, ComplexNumbers x) {
+            assertTrue(this.x.comparison(this.x));
+            assertEquals(true, comparison());
+         //   assertEquals(false, ComplexNumbers.comparison(x, y));
+          //  assertNotEquals(true, ComplexNumbers.comparison(x, y));
         }
     */
     @Test
