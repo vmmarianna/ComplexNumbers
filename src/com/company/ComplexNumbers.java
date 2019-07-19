@@ -24,33 +24,31 @@ public class ComplexNumbers {
 
     //сравнения
 
-   public  boolean comparison(ComplexNumbers other) {
+    public boolean comparison(ComplexNumbers other) {
 
-        if ((this.getRe()==other.getRe()) && (this.getIm()==other.getIm()))
-        {
+        if ((this.getRe() == other.getRe()) && (this.getIm() == other.getIm())) {
             return true;
-        }
-        else return  false;
-       }
+        } else return false;
+    }
     //сложение
 
-    public  ComplexNumbers sum(ComplexNumbers other) {
+    public ComplexNumbers sum(ComplexNumbers other) {
         return new ComplexNumbers(this.getRe() + other.getRe(), this.getIm() + other.getIm());
     }
 
     //вычитание
-    public  ComplexNumbers sub(ComplexNumbers other) {
+    public ComplexNumbers sub(ComplexNumbers other) {
         return new ComplexNumbers(this.getRe() - other.getRe(), this.getIm() - other.getIm());
     }
 
     //умножение
-    public static ComplexNumbers multiply(ComplexNumbers c1,ComplexNumbers c2) {
+    public static ComplexNumbers multiply(ComplexNumbers c1, ComplexNumbers c2) {
         return new ComplexNumbers(c1.getRe() * c2.getRe() - c1.getIm() * c2.getIm(), c1.getRe() * c2.getIm() + c1.getIm() * c2.getRe());
     }
 
 
     //деление
-    public static   ComplexNumbers div(ComplexNumbers c1,ComplexNumbers c2) {
+    public static ComplexNumbers div(ComplexNumbers c1, ComplexNumbers c2) {
         ComplexNumbers temp = new ComplexNumbers(c2.getRe(), (-1) * c2.getIm());
         temp = ComplexNumbers.multiply(c1, temp);
         double divider = c2.getRe() * c2.getRe() + c2.getIm() * c2.getIm();
@@ -70,22 +68,23 @@ public class ComplexNumbers {
         }
     }
 
-    //корень
-    public  ComplexNumbers[] sqrt(ComplexNumbers cn) {
-        double a = cn.getModule() / 2;
-        ComplexNumbers pos = new ComplexNumbers(Math.sqrt(a + cn.getRe() / 2), Math.signum(cn.getIm()) * Math.sqrt(a - cn.getRe() / 2));
-        ComplexNumbers neg = new ComplexNumbers((-1) * pos.getRe(), (-1) * pos.getIm());
-        ComplexNumbers[] answer = {pos, neg};
-        return answer;
-    }
-
+    /*
+        //корень
+        public  ComplexNumbers[] sqrt(ComplexNumbers cn) {
+            double a = cn.getModule() / 2;
+            ComplexNumbers pos = new ComplexNumbers(Math.sqrt(a + cn.getRe() / 2), Math.signum(cn.getIm()) * Math.sqrt(a - cn.getRe() / 2));
+            ComplexNumbers neg = new ComplexNumbers((-1) * pos.getRe(), (-1) * pos.getIm());
+            ComplexNumbers[] answer = {pos, neg};
+            return answer;
+        }
+    */
     //модуль числа
     private double getModule() {
         return Math.sqrt(this.re * this.re + this.im * this.im);
     }
 
     //возведение в степень;
-    public  ComplexNumbers pow(ComplexNumbers c, int power) {
+    public ComplexNumbers pow(ComplexNumbers c, int power) {
         double factor = Math.pow(c.getModule(), power);
         return new ComplexNumbers(factor * Math.cos(power * c.GetArg()), factor * Math.sin(power * c.GetArg()));
     }
@@ -95,11 +94,12 @@ public class ComplexNumbers {
         other = other.sub(this);
         double cos = Math.cos(angle);
         double sin = Math.sin(angle);
-        return new ComplexNumbers(this.getRe()*cos+other.getRe()*sin,this.getIm()*sin+other.getIm()*cos);
+        return new ComplexNumbers(this.getRe() * cos + other.getRe() * sin, this.getIm() * sin + other.getIm() * cos);
     }
 
     private String sign() {
         if (im > 0) return " + ";
+        else if (im == 0) return "";
         else return " - ";
     }
 

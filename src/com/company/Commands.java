@@ -23,22 +23,21 @@ public class Commands {
                     System.out.println("div");
                     System.out.println("comparison");
                     break;
-               case "COMPARISON":
+                case "COMPARISON":
 
-                   if ( x.comparison(y) == true){
-                       System.out.println("YES");
-                   }
-                   else {
-                       System.out.println("NO");
-                   }
-                   break;
+                    if (x.comparison(y) == true) {
+                        System.out.println("YES");
+                    } else {
+                        System.out.println("NO");
+                    }
+                    break;
                 case "SUM":
                     z = x.sum(y);
                     print(command);
                     break;
 
                 case "ROTATE":
-                    z = x.rotate(y,2);
+                    z = x.rotate(y, 2);
                     print(command);
                     break;
 
