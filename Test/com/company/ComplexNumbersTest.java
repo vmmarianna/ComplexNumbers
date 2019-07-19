@@ -11,14 +11,7 @@ public class ComplexNumbersTest {
 
     private ComplexNumbers x;
     private ComplexNumbers y;
-    private ComplexNumbers x1;
-    private ComplexNumbers y1;
-    private ComplexNumbers x2;
-    private ComplexNumbers y2;
-    private ComplexNumbers x3;
-    private ComplexNumbers y3;
 
-    private ComplexNumbers z;
 
     @Before
     public void setUp() throws Exception {
@@ -36,38 +29,39 @@ public class ComplexNumbersTest {
     @Test
     public void sum() {
         ComplexNumbers sum = x.sum(y);
-        assertEquals(1.1, sum.getRe(),0.000001);
-        assertEquals(5, sum.getIm(),0.5);
-    }
-/*
-    @Test
-    public void comparison() {
-        assertTrue(x.comparison(x));
-        assertEquals(true, ComplexNumbers.comparison(x, x));
-        assertEquals(false, ComplexNumbers.comparison(x, y));
-        assertNotEquals(true, ComplexNumbers.comparison(x, y));
+        assertEquals(1.1, sum.getRe(), 0.000001);
+        assertEquals(5, sum.getIm(), 0.000001);
     }
 
+    /*
+        @Test
+        public void comparison() {
+            assertTrue(x.comparison(x));
+            assertEquals(true, ComplexNumbers.comparison(x, x));
+            assertEquals(false, ComplexNumbers.comparison(x, y));
+            assertNotEquals(true, ComplexNumbers.comparison(x, y));
+        }
+    */
     @Test
     public void sub() {
-        z = new ComplexNumbers(3, 1);
-        assertEquals(z.getRe(), ComplexNumbers.sub(x, y).getRe(), 0.5);
-        assertEquals(z.getIm(), ComplexNumbers.sub(x, y).getIm(), 0.5);
+        ComplexNumbers sub = x.sub(y);
+
+        assertEquals(3, sub.getRe(), 0.5);
+        assertEquals(1, sub.getIm(), 0.5);
     }
 
     @Test
     public void multiply() {
-        z = new ComplexNumbers(-8, 1);
-        assertEquals(z.getRe(), ComplexNumbers.multiply(x, y).getRe(), 0.5);
-        assertEquals(z.getIm(), ComplexNumbers.multiply(x, y).getIm(), 0.5);
+        //z = new ComplexNumbers(-8, 1);
+        assertEquals(-8, ComplexNumbers.multiply(x, y).getRe(), 0.5);
+        assertEquals(1, ComplexNumbers.multiply(x, y).getIm(), 0.5);
     }
 
     @Test
     public void div() {
-        z = new ComplexNumbers(0.8, -1.4);
-        assertEquals(z.getRe(), ComplexNumbers.div(x, y).getRe(), 0.5);
-        assertEquals(z.getIm(), ComplexNumbers.div(x, y).getIm(), 0.5);
+        assertEquals(0.8, ComplexNumbers.div(x, y).getRe(), 0.5);
+        assertEquals(-1.4, ComplexNumbers.div(x, y).getIm(), 0.5);
     }
 
-*/
+
 }

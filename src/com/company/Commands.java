@@ -21,8 +21,9 @@ public class Commands {
                     System.out.println("sub");
                     System.out.println("multiply");
                     System.out.println("div");
+                    System.out.println("comparison");
                     break;
-               case "COM":
+               case "COMPARISON":
 
                    if ( x.comparison(y) == true){
                        System.out.println("YES");
@@ -33,6 +34,11 @@ public class Commands {
                    break;
                 case "SUM":
                     z = x.sum(y);
+                    print(command);
+                    break;
+
+                case "ROTATE":
+                    z = x.rotate(y,2);
                     print(command);
                     break;
 

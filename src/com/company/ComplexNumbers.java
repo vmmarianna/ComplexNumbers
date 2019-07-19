@@ -30,16 +30,13 @@ public class ComplexNumbers {
 
     //сравнения
 
-  //  public boolean comparison(ComplexNumbers c1, ComplexNumbers c2) {
-       //return ((c1.getRe()==c2.getRe()) && (c1.getIm()==c2.getIm()));
-  //  }
    public  boolean comparison(ComplexNumbers other) {
-       boolean comparisonAnswer ;
+
         if ((this.getRe()==other.getRe()) && (this.getIm()==other.getIm()))
         {
-            return comparisonAnswer = true;
+            return true;
         }
-        else return comparisonAnswer = false;
+        else return  false;
        }
     //сложение
 
@@ -100,9 +97,12 @@ public class ComplexNumbers {
     }
 
     //поворота на угол φ.
-    //public ComplexNumbers cornering(ComplexNumbers c, int power) {
-
-    //}
+    public ComplexNumbers rotate(ComplexNumbers other, int angle) {
+        other = other.sub(this);
+        double cos = Math.cos(angle);
+        double sin = Math.sin(angle);
+        return new ComplexNumbers(this.getRe()*cos+other.getRe()*sin,this.getIm()*sin+other.getIm()*cos);
+    }
 
     private String sign() {
         if (im > 0) return " + ";
