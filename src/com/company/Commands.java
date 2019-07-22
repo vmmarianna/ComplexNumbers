@@ -49,6 +49,8 @@ public class Commands {
 
                 case "ROTATE":
                     z = x.rotate(y, 2);
+                    ComplexNumbers z1 = y.rotate(x, 2);
+                    System.out.println(command + " " + z1);
                     print(command);
                     break;
 
@@ -79,6 +81,7 @@ public class Commands {
     }
 
     private void print(String command) {
+        
         System.out.println(command + " " + z);
     }
 

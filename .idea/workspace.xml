@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ff569dcb-ff77-4f9a-9ed9-80ccc71c5b0f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexNumbers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexNumbers.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ComplexNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ComplexNumbers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Commands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+            <state relative-caret-position="366">
+              <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -53,15 +51,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ComplexNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1819">
+            <state relative-caret-position="332">
               <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
               <folding>
                 <element signature="e#312#313#0" expanded="true" />
                 <element signature="e#337#338#0" expanded="true" />
                 <element signature="e#366#367#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#2270#2271#0" expanded="true" />
-                <element signature="e#2341#2342#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,12 +101,12 @@
         <option value="$PROJECT_DIR$/Test/com/company/ComplexNumbersTest.java" />
         <option value="$PROJECT_DIR$/Test/com/company/TestComplex.java" />
         <option value="$PROJECT_DIR$/src/other/multiply.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Commands.java" />
         <option value="$PROJECT_DIR$/src/com/company/ComplexNumbers.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Commands.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="892" />
@@ -121,17 +117,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ComplexNumbers" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComplexNumbers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComplexNumbers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComplexNumbers" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ComplexNumbers" type="b2602c69:ProjectViewProjectNode" />
@@ -159,8 +152,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,7 +162,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Complex-Numbers" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -310,12 +301,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ComplexNumbersTest" />
+      <item itemvalue="JUnit.ComplexNumbersTest.div" />
       <item itemvalue="TestNG.TestComplex.testMultiply" />
       <item itemvalue="TestNG.TestComplex.testDiv" />
       <item itemvalue="TestNG.TestComplex" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ComplexNumbersTest.div" />
     </list>
     <recent_temporary>
       <list>
@@ -341,9 +332,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestComplex_testMultiply - 2019.07.22 at 13h 11m 40s.xml">
-      <configuration name="TestComplex.testMultiply" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestComplex_testMultiply - 2019.07.22 at 13h 12m 18s.xml">
       <configuration name="TestComplex.testMultiply" configurationId="TestNG" />
     </history-entry>
@@ -371,6 +359,9 @@
     <history-entry file="ComplexNumbersTest_div - 2019.07.22 at 14h 41m 22s.xml">
       <configuration name="ComplexNumbersTest.div" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ComplexNumbersTest_div - 2019.07.22 at 14h 42m 54s.xml">
+      <configuration name="ComplexNumbersTest.div" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -380,7 +371,7 @@
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.25642672" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.2596401" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
@@ -389,12 +380,11 @@
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32972974" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32839838" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32839838" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -403,6 +393,7 @@
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -416,13 +407,16 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Input.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/DataProvider.java" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/Assert.class" />
-    <entry file="file://$PROJECT_DIR$/src/other/multiply.java">
+    <entry file="file://$PROJECT_DIR$/src/other/multiply.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/ComplexNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="332">
+          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
           <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -444,21 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ComplexNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
-          <folding>
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#2270#2271#0" expanded="true" />
-            <element signature="e#2341#2342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -468,8 +447,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Commands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+        <state relative-caret-position="366">
+          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
         </state>
       </provider>
     </entry>
