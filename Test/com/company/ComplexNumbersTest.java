@@ -46,21 +46,23 @@ public class ComplexNumbersTest {
     public void sub() {
         ComplexNumbers sub = x.sub(y);
 
-        assertEquals(3, sub.getRe(), 0.5);
-        assertEquals(1, sub.getIm(), 0.5);
+        assertEquals(3, sub.getRe(), 0.000001);
+        assertEquals(1, sub.getIm(), 0.000001);
     }
 
     @Test
     public void multiply() {
         //z = new ComplexNumbers(-8, 1);
-        assertEquals(-8, ComplexNumbers.multiply(x, y).getRe(), 0.5);
-        assertEquals(1, ComplexNumbers.multiply(x, y).getIm(), 0.5);
+        ComplexNumbers multiply = ComplexNumbers.multiply(x, y);
+        assertEquals(-8, multiply.getRe(), 0.000001);
+        assertEquals(1, multiply.getIm(), 0.000001);
     }
 
     @Test
     public void div() {
-        assertEquals(0.8, ComplexNumbers.div(x, y).getRe(), 0.5);
-        assertEquals(-1.4, ComplexNumbers.div(x, y).getIm(), 0.5);
+        ComplexNumbers div = ComplexNumbers.div(x, y);
+        assertEquals(0.8, div.getRe(), 0.000001);
+        assertEquals(-1.4, div.getIm(), 0.000001);
     }
 
 

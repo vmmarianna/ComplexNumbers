@@ -8,7 +8,6 @@ public class ComplexNumbers {
     //мнимая часть комплексного числа
     private double im;
 
-
     public ComplexNumbers(double re, double im) {
         this.re = re;
         this.im = im;
@@ -23,15 +22,14 @@ public class ComplexNumbers {
     }
 
     //сравнения
-
     public boolean comparison(ComplexNumbers other) {
 
         if ((this.getRe() == other.getRe()) && (this.getIm() == other.getIm())) {
             return true;
         } else return false;
     }
-    //сложение
 
+    //сложение
     public ComplexNumbers sum(ComplexNumbers other) {
         return new ComplexNumbers(this.getRe() + other.getRe(), this.getIm() + other.getIm());
     }
@@ -45,7 +43,6 @@ public class ComplexNumbers {
     public static ComplexNumbers multiply(ComplexNumbers c1, ComplexNumbers c2) {
         return new ComplexNumbers(c1.getRe() * c2.getRe() - c1.getIm() * c2.getIm(), c1.getRe() * c2.getIm() + c1.getIm() * c2.getRe());
     }
-
 
     //деление
     public static ComplexNumbers div(ComplexNumbers c1, ComplexNumbers c2) {
@@ -68,16 +65,6 @@ public class ComplexNumbers {
         }
     }
 
-    /*
-        //корень
-        public  ComplexNumbers[] sqrt(ComplexNumbers cn) {
-            double a = cn.getModule() / 2;
-            ComplexNumbers pos = new ComplexNumbers(Math.sqrt(a + cn.getRe() / 2), Math.signum(cn.getIm()) * Math.sqrt(a - cn.getRe() / 2));
-            ComplexNumbers neg = new ComplexNumbers((-1) * pos.getRe(), (-1) * pos.getIm());
-            ComplexNumbers[] answer = {pos, neg};
-            return answer;
-        }
-    */
     //модуль числа
     private double getModule() {
         return Math.sqrt(this.re * this.re + this.im * this.im);
@@ -97,6 +84,7 @@ public class ComplexNumbers {
         return new ComplexNumbers(this.getRe() * cos + other.getRe() * sin, this.getIm() * sin + other.getIm() * cos);
     }
 
+    //знак
     private String sign() {
         if (im > 0) return " + ";
         else if (im == 0) return "";
