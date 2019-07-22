@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff569dcb-ff77-4f9a-9ed9-80ccc71c5b0f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Test/com/company/TestComplex.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ComplexNumbers.iml" afterPath="$PROJECT_DIR$/ComplexNumbers.iml" />
       <change beforePath="$PROJECT_DIR$/Test/com/company/ComplexNumbersTest.java" afterPath="$PROJECT_DIR$/Test/com/company/ComplexNumbersTest.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Commands.java" afterPath="$PROJECT_DIR$/src/com/company/Commands.java" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ComplexNumbers.java" afterPath="$PROJECT_DIR$/src/com/company/ComplexNumbers.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Input.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,11 @@
       <file leaf-file-name="Commands.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Commands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="90" column="41" lean-forward="false" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+            <state relative-caret-position="365">
+              <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
               <folding>
-                <element signature="e#2424#2425#0" expanded="true" />
-                <element signature="e#2477#2478#0" expanded="true" />
+                <element signature="e#2392#2393#0" expanded="true" />
+                <element signature="e#2445#2446#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,18 +42,42 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ComplexNumbersTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/com/company/ComplexNumbersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ComplexNumbers.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/ComplexNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="142">
+              <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
               <folding>
                 <element signature="e#312#313#0" expanded="true" />
                 <element signature="e#337#338#0" expanded="true" />
                 <element signature="e#366#367#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#1965#1966#0" expanded="true" />
-                <element signature="e#2036#2037#0" expanded="true" />
+                <element signature="e#2148#2149#0" expanded="true" />
+                <element signature="e#2219#2220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestComplex.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/com/company/TestComplex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-630">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,6 +90,8 @@
       <list>
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="TestNG Test Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -85,11 +111,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test/com/company/ComplexNumbersTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/Input.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Commands.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DataProvider.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Commands.java" />
+        <option value="$PROJECT_DIR$/Test/com/company/ComplexNumbersTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/ComplexNumbers.java" />
+        <option value="$PROJECT_DIR$/Test/com/company/TestComplex.java" />
       </list>
     </option>
   </component>
@@ -158,11 +186,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="com.company" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -184,23 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ComplexNumbers" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestComplex.testMultiply">
     <configuration name="ComplexNumbersTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -215,31 +230,6 @@
       <option name="MAIN_CLASS_NAME" value="com.company.ComplexNumbersTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ComplexNumbersTest.comparison" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ComplexNumbers" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.ComplexNumbersTest" />
-      <option name="METHOD_NAME" value="comparison" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -276,7 +266,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ComplexNumbersTest.sub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestComplex" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -286,22 +276,29 @@
       <module name="ComplexNumbers" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.ComplexNumbersTest" />
-      <option name="METHOD_NAME" value="sub" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestComplex" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <envs />
-      <patterns />
+      <properties />
+      <listeners />
     </configuration>
-    <configuration name="ComplexNumbersTest.sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestComplex.testDiv" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -311,35 +308,106 @@
       <module name="ComplexNumbers" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.ComplexNumbersTest" />
-      <option name="METHOD_NAME" value="sum" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestComplex" />
+      <option name="METHOD_NAME" value="testDiv" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <envs />
-      <patterns />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestComplex.testMultiply" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ComplexNumbers" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestComplex" />
+      <option name="METHOD_NAME" value="testMultiply" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestComplex.testSum" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ComplexNumbers" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestComplex" />
+      <option name="METHOD_NAME" value="testSum" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ComplexNumbersTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ComplexNumbersTest.sum" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ComplexNumbersTest.sub" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ComplexNumbersTest.multiply" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ComplexNumbersTest.comparison" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ComplexNumbersTest.multiply" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.TestComplex.testMultiply" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TestComplex.testDiv" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestComplex" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.TestComplex.testSum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ComplexNumbersTest.sum" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ComplexNumbersTest.sub" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ComplexNumbersTest.comparison" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestComplex.testMultiply" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestComplex.testDiv" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TestComplex" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TestComplex.testSum" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ComplexNumbersTest.multiply" />
       </list>
     </recent_temporary>
@@ -361,35 +429,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ComplexNumbersTest - 2019.07.19 at 13h 51m 56s.xml">
-      <configuration name="ComplexNumbersTest" configurationId="JUnit" />
+    <history-entry file="TestComplex - 2019.07.22 at 13h 02m 03s.xml">
+      <configuration name="TestComplex" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComplexNumbersTest - 2019.07.19 at 13h 53m 16s.xml">
-      <configuration name="ComplexNumbersTest" configurationId="JUnit" />
+    <history-entry file="TestComplex - 2019.07.22 at 13h 02m 49s.xml">
+      <configuration name="TestComplex" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComplexNumbersTest - 2019.07.19 at 14h 01m 36s.xml">
-      <configuration name="ComplexNumbersTest" configurationId="JUnit" />
+    <history-entry file="TestComplex_testDiv - 2019.07.22 at 12h 56m 17s.xml">
+      <configuration name="TestComplex.testDiv" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComplexNumbersTest - 2019.07.19 at 15h 16m 19s.xml">
-      <configuration name="ComplexNumbersTest" configurationId="JUnit" />
+    <history-entry file="TestComplex_testDiv - 2019.07.22 at 13h 00m 15s.xml">
+      <configuration name="TestComplex.testDiv" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComplexNumbersTest - 2019.07.19 at 15h 16m 27s.xml">
-      <configuration name="ComplexNumbersTest" configurationId="JUnit" />
+    <history-entry file="TestComplex_testDiv - 2019.07.22 at 13h 01m 21s.xml">
+      <configuration name="TestComplex.testDiv" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComplexNumbersTest - 2019.07.19 at 15h 46m 47s.xml">
-      <configuration name="ComplexNumbersTest" configurationId="JUnit" />
+    <history-entry file="TestComplex_testDiv - 2019.07.22 at 13h 02m 30s.xml">
+      <configuration name="TestComplex.testDiv" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComplexNumbersTest - 2019.07.19 at 15h 51m 57s.xml">
-      <configuration name="ComplexNumbersTest" configurationId="JUnit" />
+    <history-entry file="TestComplex_testDiv - 2019.07.22 at 13h 03m 10s.xml">
+      <configuration name="TestComplex.testDiv" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComplexNumbersTest_sum - 2019.07.19 at 14h 14m 30s.xml">
-      <configuration name="ComplexNumbersTest.sum" configurationId="JUnit" />
+    <history-entry file="TestComplex_testMultiply - 2019.07.22 at 13h 11m 40s.xml">
+      <configuration name="TestComplex.testMultiply" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComplexNumbersTest_sum - 2019.07.19 at 14h 15m 01s.xml">
-      <configuration name="ComplexNumbersTest.sum" configurationId="JUnit" />
+    <history-entry file="TestComplex_testMultiply - 2019.07.22 at 13h 12m 18s.xml">
+      <configuration name="TestComplex.testMultiply" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComplexNumbersTest_sum - 2019.07.19 at 14h 15m 59s.xml">
-      <configuration name="ComplexNumbersTest.sum" configurationId="JUnit" />
+    <history-entry file="TestComplex_testSum - 2019.07.22 at 13h 02m 14s.xml">
+      <configuration name="TestComplex.testSum" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -404,7 +472,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -447,8 +515,8 @@
         <state relative-caret-position="738">
           <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding>
-            <element signature="e#2424#2425#0" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
+            <element signature="e#2392#2393#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -480,8 +548,8 @@
             <element signature="e#337#338#0" expanded="true" />
             <element signature="e#366#367#0" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
-            <element signature="e#2036#2037#0" expanded="true" />
+            <element signature="e#2148#2149#0" expanded="true" />
+            <element signature="e#2219#2220#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -493,20 +561,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/com/company/ComplexNumbersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="64" column="48" lean-forward="false" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Input.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -519,28 +585,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Test/com/company/ComplexNumbersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Commands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="90" column="41" lean-forward="false" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+        <state relative-caret-position="365">
+          <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
           <folding>
-            <element signature="e#2424#2425#0" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
+            <element signature="e#2392#2393#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#1316#1317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/com/company/TestComplex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ComplexNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="142">
+          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding>
             <element signature="e#312#313#0" expanded="true" />
             <element signature="e#337#338#0" expanded="true" />
             <element signature="e#366#367#0" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
-            <element signature="e#2036#2037#0" expanded="true" />
+            <element signature="e#2148#2149#0" expanded="true" />
+            <element signature="e#2219#2220#0" expanded="true" />
           </folding>
         </state>
       </provider>

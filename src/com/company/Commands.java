@@ -58,12 +58,12 @@ public class Commands {
                     break;
 
                 case "MULTIPLY":
-                    z = ComplexNumbers.multiply(x, y);
+                    z = x.multiply(y);
                     print(command);
                     break;
 
                 case "DIV":
-                    z = ComplexNumbers.div(x, y);
+                    z = x.div(y);
                     print(command);
                     break;
                 case "EXIT":

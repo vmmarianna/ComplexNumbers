@@ -53,14 +53,14 @@ public class ComplexNumbersTest {
     @Test
     public void multiply() {
         //z = new ComplexNumbers(-8, 1);
-        ComplexNumbers multiply = ComplexNumbers.multiply(x, y);
+        ComplexNumbers multiply = x.multiply(y);
         assertEquals(-8, multiply.getRe(), 0.000001);
         assertEquals(1, multiply.getIm(), 0.000001);
     }
 
     @Test
     public void div() {
-        ComplexNumbers div = ComplexNumbers.div(x, y);
+        ComplexNumbers div = x.div(y);
         assertEquals(0.8, div.getRe(), 0.000001);
         assertEquals(-1.4, div.getIm(), 0.000001);
     }
