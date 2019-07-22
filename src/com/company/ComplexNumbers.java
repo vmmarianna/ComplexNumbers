@@ -40,17 +40,15 @@ public class ComplexNumbers {
     }
 
     //умножение
-    public  ComplexNumbers multiply(ComplexNumbers other) {
+    public ComplexNumbers multiply(ComplexNumbers other) {
         return new ComplexNumbers(this.getRe() * other.getRe() - this.getIm() * other.getIm(),
                 this.getRe() * other.getIm() + this.getIm() * other.getRe());
     }
 
     //деление
     public ComplexNumbers div(ComplexNumbers other) {
-      ComplexNumbers  temp = new ComplexNumbers(other.getRe(), (-1) * other.getIm());
-       // temp = ComplexNumbers.multiply(c1, temp);
-        temp = new ComplexNumbers(temp.getRe() * other.getRe() - temp.getIm() * other.getIm(),
-                temp.getRe() * other.getIm() + temp.getIm() * other.getRe());
+        ComplexNumbers temp = new ComplexNumbers(other.getRe(), (-1) * other.getIm());
+        temp = this.multiply(temp);
         double divider = other.getRe() * other.getRe() + other.getIm() * other.getIm();
         return new ComplexNumbers(temp.getRe() / divider, temp.getIm() / divider);
     }
@@ -108,6 +106,4 @@ public class ComplexNumbers {
         }
         return string;
     }
-
-
 }

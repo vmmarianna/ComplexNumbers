@@ -93,7 +93,6 @@ public class Commands {
         double y2 = scanner.nextDouble();
         x = new ComplexNumbers(x1, y1);
         y = new ComplexNumbers(x2, y2);
+        scanner.nextLine();
     }
-
-
 }
