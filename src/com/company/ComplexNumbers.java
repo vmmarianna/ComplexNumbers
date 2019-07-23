@@ -23,7 +23,6 @@ public class ComplexNumbers {
 
     //сравнения
     public boolean comparison(ComplexNumbers other) {
-
         return (this.getRe() == other.getRe()) && (this.getIm() == other.getIm());
     }
 
@@ -45,7 +44,6 @@ public class ComplexNumbers {
 
     //деление
     public ComplexNumbers div(ComplexNumbers other) throws ArithmeticException {
-
         ComplexNumbers temp = new ComplexNumbers(other.getRe(), (-1) * other.getIm());
         temp = this.multiply(temp);
         double divider = other.getRe() * other.getRe() + other.getIm() * other.getIm();
@@ -73,7 +71,6 @@ public class ComplexNumbers {
         modul = Math.pow(modul, power);
         arg *= power;
         return new ComplexNumbers(modul * Math.cos(arg), modul * Math.sin(arg));
-
     }
 
     //поворота на угол φ в радианах
@@ -88,7 +85,7 @@ public class ComplexNumbers {
     private String sign() {
         if (im > 0) return " + ";
         else if (im == 0) return " + ";
-        else return " - ";
+        else return "";
     }
 
     //вывод
