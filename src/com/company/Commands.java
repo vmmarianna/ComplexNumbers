@@ -51,11 +51,11 @@ public class Commands {
                     int power = scanner.nextInt();
                     try {
                         result = complexNumbers1.pow(power);
-                        ComplexNumbers result2 =  complexNumbers2.pow(power);
+                        ComplexNumbers result2 = complexNumbers2.pow(power);
                         print(command);
                         System.out.println(command + " " + result2);
                         scanner.nextLine();
-                    } catch ( ArithmeticException e) {
+                    } catch (ArithmeticException e) {
                         e.printStackTrace();
                         scanner.nextLine();
                     }
@@ -83,7 +83,7 @@ public class Commands {
                         result = complexNumbers1.div(complexNumbers2);
                         print(command);
 
-                    } catch ( ArithmeticException e) {
+                    } catch (ArithmeticException e) {
                         e.printStackTrace();
                     }
 

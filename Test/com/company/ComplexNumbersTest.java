@@ -186,7 +186,6 @@ public class ComplexNumbersTest {
     }
 
 
-
     @DataProvider(name = "pow")
     public static Object[][] pow() {
         return new Object[][]{

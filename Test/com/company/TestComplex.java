@@ -136,50 +136,5 @@ public class TestComplex {
         assertEquals(answerRe, a.multiply(b).getRe(), 0.0000001);
         assertEquals(answerIm, a.multiply(b).getIm(), 0.0000001);
     }
-/*
 
-    @DataProvider(name = "div")
-    public Object[][] div() {
-        int resultSize = fullData.size();
-        int length = fullData.get(0).length;
-        Object[][] result = new Double[resultSize][length];
-
-        for (int testCase = 0; testCase < resultSize; testCase++) {
-            Double[] insert = new Double[]{
-                    fullData.get(testCase)[0],
-                    fullData.get(testCase)[1],
-                    fullData.get(testCase)[2],
-                    fullData.get(testCase)[3],
-                    //   temp.getRe() * other.getRe() - temp.getIm() * other.getIm()/
-                    // temp.getRe() * other.getRe() - temp.getIm() * other.getIm()/
-                    //(fullData.get(testCase)[0] * fullData.get(testCase)[0] - fullData.get(testCase)[1] * fullData.get(testCase)[1])/
-                    //        (fullData.get(testCase)[0]*fullData.get(testCase)[2]+fullData.get(testCase)[1]*fullData.get(testCase)[3]),
-                    // temp.getRe() * other.getIm() + temp.getIm() * other.getRe()
-                    //(fullData.get(testCase)[0] * fullData.get(testCase)[3] + fullData.get(testCase)[1] * fullData.get(testCase)[2])/
-                   //         (fullData.get(testCase)[0]*fullData.get(testCase)[2]+fullData.get(testCase)[1]*fullData.get(testCase)[3])
-
-
-                   // ( fullData.get(testCase)[0]*fullData.get(testCase)[2]+fullData.get(testCase)[1]*fullData.get(testCase)[3])/
-                            //(fullData.get(testCase)[2]*fullData.get(testCase)[2]+fullData.get(testCase)[3]*fullData.get(testCase)[3]),
-
-                  //  (fullData.get(testCase)[1]*fullData.get(testCase)[2]-fullData.get(testCase)[3]*fullData.get(testCase)[0])
-                           // /(fullData.get(testCase)[2]*fullData.get(testCase)[2]+fullData.get(testCase)[3]*fullData.get(testCase)[3])
-
-
-
-            };
-            result[testCase] = insert;
-        }
-
-        return result;
-    }
-
-    @Test(dataProvider = "div")
-    public void testDiv(Double numARe, Double numAIm, Double numBRe, Double numBIm, Double answerRe, Double answerIm) {
-        a = new ComplexNumbers(numARe, numAIm);
-        b = new ComplexNumbers(numBRe, numBIm);
-        assertEquals(answerRe, a.div(b).getRe(), 0.1);
-        assertEquals(answerIm, a.div(b).getIm(), 0.1);
-    }
-    */
 }
