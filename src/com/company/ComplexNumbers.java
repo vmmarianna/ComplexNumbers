@@ -24,9 +24,7 @@ public class ComplexNumbers {
     //сравнения
     public boolean comparison(ComplexNumbers other) {
 
-        if ((this.getRe() == other.getRe()) && (this.getIm() == other.getIm())) {
-            return true;
-        } else return false;
+        return (this.getRe() == other.getRe()) && (this.getIm() == other.getIm());
     }
 
     //сложение
@@ -46,49 +44,45 @@ public class ComplexNumbers {
     }
 
     //деление
-    public ComplexNumbers div(ComplexNumbers other) {
+    public ComplexNumbers div(ComplexNumbers other) throws  ArithmeticException {
+
         ComplexNumbers temp = new ComplexNumbers(other.getRe(), (-1) * other.getIm());
         temp = this.multiply(temp);
         double divider = other.getRe() * other.getRe() + other.getIm() * other.getIm();
+        if ((other.getIm() == 0) && (other.getRe() == 0))
+            throw new ArithmeticException("division by zero");
         return new ComplexNumbers(temp.getRe() / divider, temp.getIm() / divider);
     }
 
-    //получение аргумента
-    private double GetArg() {
-        if (this.re > 0) {
-            return Math.atan(im / re);
-        } else {
-            if (re < 0 && im > 0) {
-                return Math.PI + Math.atan(im / re);
-            } else {
-                return -Math.PI + Math.atan(im / re);
-            }
-        }
+    public Double abs() {
+        return Math.sqrt(Math.pow(this.re, 2) + Math.pow(this.im, 2));
     }
 
-    //модуль числа
-    private double getModule() {
-        return Math.sqrt(this.re * this.re + this.im * this.im);
+    public Double arg() {
+        return Math.atan2(this.im, this.re);
     }
 
-    //возведение в степень;
-    public ComplexNumbers pow(ComplexNumbers c, int power) {
-        double factor = Math.pow(c.getModule(), power);
-        return new ComplexNumbers(factor * Math.cos(power * c.GetArg()), factor * Math.sin(power * c.GetArg()));
+    public ComplexNumbers pow(double power) {
+        double modul = this.abs();
+        double arg = this.arg();
+        modul = Math.pow(modul, power);
+        arg *= power;
+        return new ComplexNumbers(modul * Math.cos(arg),  modul * Math.sin(arg));
     }
 
-    //поворота на угол φ.
-    public ComplexNumbers rotate(ComplexNumbers other, int angle) {
-        other = other.sub(this);
-        double cos = Math.cos(angle);
-        double sin = Math.sin(angle);
-        return new ComplexNumbers(this.getRe() * cos + other.getRe() * sin, this.getIm() * sin + other.getIm() * cos);
+
+    //поворота на угол φ в радианах
+    public ComplexNumbers rotate(double angle) {
+        double r = this.abs();
+        double phi = this.arg();
+        phi += angle * (2 * Math.PI / 360);
+        return new ComplexNumbers(r * Math.cos(phi), r * Math.sin(phi));
     }
 
     //знак
     private String sign() {
         if (im > 0) return " + ";
-        else if (im == 0) return "";
+        else if (im == 0) return " + ";
         else return " - ";
     }
 
@@ -106,4 +100,5 @@ public class ComplexNumbers {
         }
         return string;
     }
+
 }

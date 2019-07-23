@@ -71,8 +71,11 @@ public class TestComplex {
     public void testSum(Double numARe, Double numAIm, Double numBRe, Double numBIm, Double answerRe, Double answerIm) {
         a = new ComplexNumbers(numARe, numAIm);
         b = new ComplexNumbers(numBRe, numBIm);
-        assertEquals(answerRe, a.sum(b).getRe(), 0.0000001);
-        assertEquals(answerIm, a.sum(b).getIm(), 0.0000001);
+
+        ComplexNumbers sum = a.sum(b);
+
+        assertEquals(answerRe, sum.getRe(), 0.0000001);
+        assertEquals(answerIm, sum.getIm(), 0.0000001);
     }
 
 
